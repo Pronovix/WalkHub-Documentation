@@ -1,0 +1,10 @@
+site_name: WalkHub Documentation
+
+pages:
+- [index.md, Documentation]
+- [user_guide.md, User guide]
+- [style_guide.md, Style guide]
+- [for_developers.md, For developers]
+- [issue.md, Submit an issue]
+
+theme: readthedocs

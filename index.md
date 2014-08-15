@@ -1,0 +1,5 @@
+# The WalkHub framework
+
+WalkHub creates a framework for integrated tutorials that guide users through an interface, one step at a time. Just like a GPS in a car enables you to reach your destination without first having to learn the road you want to take, Walkthroughs give people just enough information at just the right time so that they can successfully complete tasks faster with much less effort.
+
+The Walkthrough technology uses the Selenium testing format, an open standard widely used for regression testing in browser-based software projects. WalkHub itself is built on top of Drupal, an open source content management system (CMS) that has already achieved considerable traction in the enterprise world. For the actual player, we currently use Joyride.JS, an open source JavaScript library that already allows developers to create stepped contextual help (UX tours). These three components together with the features we’ve developed to integrate them and enable collaboration form an open source product that could be integrated into any organization’s documentation system.
