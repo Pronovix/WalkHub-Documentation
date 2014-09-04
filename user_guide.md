@@ -1,6 +1,32 @@
-# User guide
+**'How to' guides:**
 
-## Recording a Walkthrough
+[Recording a Walkthrough](#Recording_a_Walkthrough)   
+[Adding Step descriptions](#Adding_Step_descriptions)   
+[Moving a Walkthrough Step bubble](#Moving_a_Walkthrough_Step_bubble)   
+[Changing the Action of a Walkthrough Step](#Changing_the_Action_of_a_Walkthrough_Step)   
+[Manually changing the Steps in a Walkthrough](#Manually_changing_the_Steps_in_a_Walkthrough)   
+[Configuring the parameters of a Walkthrough](#Configuring_the_parameters_of_a_Walkthrough)   
+[Playing Walkthroughs](#Playing_Walkthroughs)   
+[Playing a Walkthrough on a different site](#Playing_a_Walkthrough_on_a_different_site)   
+[Sharing Walkthroughs](#Sharing_Walkthroughs)   
+[Exporting a Walkthrough](#Exporting_a_Walkthrough)   
+
+
+**Using Selenium to record Walkthroughs:**
+
+[Installing Selenium IDE](#Installing_Selenium_IDE)   
+[Recording Selenium tests](#Recording_Selenium_tests)   
+[Creating Walkthroughs from a Selenium test](#Creating_Walkthroughs_from_a_Selenium_test)   
+
+
+**References:**
+
+[Supported Selenium commands](#Supported_Selenium_commands)   
+[Supported Step highlights](#Supported_Step_highlights)   
+
+
+
+## <a name="Recording_a_Walkthrough">Recording a Walkthrough</a>
 
 The easiest way to record a Walkthrough is to use WalkHub's built-in recorder. (You have to be logged in for this.)
 
@@ -22,7 +48,7 @@ The easiest way to record a Walkthrough is to use WalkHub's built-in recorder. (
 
 
 
-## Adding Step descriptions
+## <a name="Adding_Step_descriptions">Adding Step descriptions</a>
 
 After recording your Walkthrough, you can simply play it and add Step descriptions on the fly.
 
@@ -33,7 +59,7 @@ After recording your Walkthrough, you can simply play it and add Step descriptio
 5. Click "Save", and continue editing Steps by going through your Walkthrough.
 
  
-## Moving a Walkthrough Step bubble
+## <a name="Moving_a_Walkthrough_Step_bubble">Moving a Walkthrough Step bubble</a>
 
 You can move a Step without recording the Walkthrough again.
 
@@ -43,7 +69,7 @@ You can move a Step without recording the Walkthrough again.
 4. Click "Save".
 
  
-## Changing the Action of a Walkthrough Step
+## <a name="Changing_the_Action_of_a_Walkthrough_Step">Changing the Action of a Walkthrough Step</a>
 
 1. Click "Start Walkthrough" to play the Walkthrough you recorded.
 2. Click "Edit" on a Step to edit it.
@@ -52,7 +78,7 @@ You can move a Step without recording the Walkthrough again.
 5. Click "Save".
 
 
-## Manually changing the Steps in a Walkthrough
+## <a name="Manually_changing_the_Steps_in_a_Walkthrough">Manually changing the Steps in a Walkthrough</a>
 
 It is possible to manually add or remove Steps from a Walkthrough, and to change their order.
 
@@ -76,7 +102,7 @@ Please play these Walktroughs on Walkthroughs you created to be able to access t
 </div>
 
 
-## Configuring the parameters of a Walkthrough
+## <a name="Configuring_the_parameters_of_a_Walkthrough">Configuring the parameters of a Walkthrough</a>
 
 Parameters make it easy for people to reuse an existing Walkthrough. Under the "Parameters/Proxy Warning" section (by default collapsed) it is possible to manually add or remove parameters for Walkthroughs and to configure their default values.
 
@@ -103,7 +129,7 @@ Please play this Walktrough on a Walkthrough you created to be able to access it
 
 
 
-## Playing Walkthroughs
+## <a name="Playing_Walkthroughs">Playing Walkthroughs</a>
 
 Walkthroughs are stored and played from a WalkHub (this could be WalkHub.net, your own dedicated WalkHub or your Drupal site on which you have enabled the WalkHub module).
 
@@ -118,7 +144,7 @@ Walkthroughs are stored and played from a WalkHub (this could be WalkHub.net, yo
   <iframe id="walkthrough-slideshow-iframe" frameborder="0" width="400" height="300" src="http://walkhub.net/walkthrough/3770/slideshow" allowfullscreen=""> Your browser doesn't support iframes.</iframe>
 </div>
 
-## Playing a Walkthrough on a different site
+## <a name="Playing_a_Walkthrough_on_a_different_site">Playing a Walkthrough on a different site</a>
 
 You can play the same Walkthrough on different sites as long as they have the same structure.
 
@@ -130,7 +156,7 @@ You can play the same Walkthrough on different sites as long as they have the sa
   <iframe id="walkthrough-slideshow-iframe" frameborder="0" width="400" height="300" src="http://walkhub.net/walkthrough/3777/slideshow" allowfullscreen=""> Your browser doesn't support iframes.</iframe>
 </div>
 
-## Sharing Walkthroughs
+## <a name="Sharing_Walkthroughs">Sharing Walkthroughs</a>
 
 WalkHub makes it easy to create hyperlinks that will launch a Walkthrough with your preferred parameters already pre-filled in the launch dialogue.
 
@@ -151,7 +177,7 @@ You can also share a Walkthrough by playing it to the end and clicking the corre
   <iframe id="walkthrough-slideshow-iframe" frameborder="0" width="400" height="300" src="http://walkhub.net/walkthrough/3771/slideshow" allowfullscreen=""> Your browser doesn't support iframes.</iframe>
 </div>
 
-## Exporting a Walkthrough
+## <a name="Exporting_a_Walkthrough">Exporting a Walkthrough</a>
 
 You can export a Walkthrough to PHPUnit or Selenium.
 
@@ -165,7 +191,7 @@ Exporting to Selenium:
 1. Click "Export to Selenium" on any Walkthrough you have the permissions for.
 2. A save dialog window will appear where you can download the Selenium source code in html format, that you can import to Selenium IDE (copy the html file source and paste into the Selenium source). 
 
-## Installing Selenium IDE
+## <a name="Installing_Selenium_IDE">Installing Selenium IDE</a>
 
 Selenium IDE is a Firefox plugin that can record and playback interactions with a browser. WalkHub can turn Selenium tests into Walkthroughs.
 
@@ -185,7 +211,7 @@ If you need a more thorough explanation, follow the steps [here](http://docs.sel
 </div>
 
 
-## Recording Selenium tests
+## <a name="Recording_Selenium_tests">Recording Selenium tests</a>
 
 To create a Selenium test you can simply record your interactions with a website using a tool like Selenium IDE.
 
@@ -203,7 +229,7 @@ To create a Selenium test you can simply record your interactions with a website
 * Don't use confidential data like usernames and passwords, unless you are planning to share them with anyone who will be playing your Walkthrough.
 
 
-## Creating Walkthroughs from a Selenium test
+## <a name="Creating_Walkthroughs_from_a_Selenium_test">Creating Walkthroughs from a Selenium test</a>
 
 Walkthroughs are created as content on a WalkHub. You can use a Selenium test to automatically create steps and example actions for your Walkthrough.
 
@@ -220,7 +246,7 @@ Walkthroughs are created as content on a WalkHub. You can use a Selenium test to
   <iframe id="walkthrough-slideshow-iframe" frameborder="0" width="400" height="300" src="http://walkhub.net/walkthrough/3559/slideshow" allowfullscreen=""> Your browser doesn't support iframes.</iframe>
 </div>
 
-## Supported Selenium commands
+## <a name="Supported_Selenium_commands">Supported Selenium commands</a>
 
 WalkHub currently only supports the most common Selenium commands. You can use them to trigger an automatic action when a user clicks the next button on a Walkthrough Step.
 
@@ -275,7 +301,7 @@ example Step Selenium commands:
 * Command 3: label=Australia/Melbourne: Wednesday, August 7, 2013 - 07:41 +1000
 
 
-## Supported Step highlights
+## <a name="Supported_Step_highlights">Supported Step highlights</a>
 
 WalkHub uses the Selenium selector naming conventions to define on what element the Step dialogue will be shown on.
 
