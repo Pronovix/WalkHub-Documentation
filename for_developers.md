@@ -1,4 +1,4 @@
-# For developers
+# For developers 
 
 WalkHub creates a framework for integrated tutorials that guide users through an interface, one step at a time.
 
@@ -8,7 +8,7 @@ You can use WalkHub through a proxy on the walkhub.net site, or install your own
 
 * [WalkHub distribution](https://github.com/Pronovix/WalkHub): Install the WalkHub distribution to create your own WalkHub.
 * [WalkHub client](https://github.com/Pronovix/WalkHub): Install the WalkHub client to play walkthroughs on your site without using the proxy feature.
-* WalkHub JS: Use the WalkHub JavaScript on your non-Drupal site.
+* WalkHub JS: Use the WalkHub JavaScript on your non-Drupal site. 
 
 ## Installing WalkHub
 
@@ -55,11 +55,11 @@ Go to admin/config/services/walkhub_client and set up your WalkHub url.
 
 _IMPORTANT: As you added the module, the proxy is not needed any more. However, it's not possible to turn it off when you start the process from the red REC button. To disable the proxy you should start the recording process from the recorder page: [http://walkhub.net/walkthrough/record](http://walkhub.net/walkthrough/record)_ 
 
-## Using the WalkHub JS
+## <a name="Using_the_WalkHub_JS">Using the WalkHub JS</a>
 
 To record and play Walkthroughs without using the proxy, use the WalkHub JavaScript on any non-Drupal site directly.
 
-Add this code to the <header> section on each page of your site:
+Add this code to the header section on each page of your site:
 
 	<script type="text/javascript">
 	window.Walkhub = window.Walkhub || {};
@@ -69,7 +69,34 @@ Add this code to the <header> section on each page of your site:
 	};
 	</script>
 	<script type="text/javascript" src="http://walkhub.net/resources/compiled.js"></script>
-	<link rel="stylesheet" type="text/css" href="http://walkhub.net/resources/walkthrough.css" />
+	<link rel="stylesheet" type="text/css" href="http://walkhub.net/resources/walkthrough.css" />    
+
+## Using WalkHub on https
+
+Add the WalkHub JavaScript  to the header section of your site, as described [here](#Using_the_WalkHub_JS). 
+
+Add this code to the header section as well:
+	
+	<script type="text/javascript">
+	window.Walkhub = window.Walkhub || {}; 
+	
+	Walkhub.Origin = function () {
+   	return "http://walkhub.net";
+	};
+	</script> 
+
+Download and insert the necessary script files. You can find them here:    
+[http://walkhub.net/resources/walkthrough.css](http://walkhub.net/resources/walkthrough.css)   
+[http://walkhub.net/resources/compiled.js](http://walkhub.net/resources/compiled.js  )   
+
+Add this code to the header:
+
+	<script type="text/javascript" src="https://my_site.com/my_resources/compiled.js"></script>
+	<script type="text/javascript" src="https://my_site.com/my_resources/walkthrough.css"></script>
+
+After following these steps, WalkHub will work on https just like it does on http. 
+
+
 
 
 
