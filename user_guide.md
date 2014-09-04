@@ -1,26 +1,29 @@
 **'How to' guides:**
 
+Recording & editing:   
 [Recording a Walkthrough](#Recording_a_Walkthrough)   
 [Adding Step descriptions](#Adding_Step_descriptions)   
 [Moving a Walkthrough Step bubble](#Moving_a_Walkthrough_Step_bubble)   
 [Changing the Action of a Walkthrough Step](#Changing_the_Action_of_a_Walkthrough_Step)   
 [Manually changing the Steps in a Walkthrough](#Manually_changing_the_Steps_in_a_Walkthrough)   
-[Configuring the parameters of a Walkthrough](#Configuring_the_parameters_of_a_Walkthrough)   
+[Configuring the parameters of a Walkthrough](#Configuring_the_parameters_of_a_Walkthrough)  
+
+Playing:    
 [Playing Walkthroughs](#Playing_Walkthroughs)   
 [Playing a Walkthrough on a different site](#Playing_a_Walkthrough_on_a_different_site)   
+
+Sharing:   
 [Sharing Walkthroughs](#Sharing_Walkthroughs)   
 [Exporting a Walkthrough](#Exporting_a_Walkthrough)   
 
 
-**Using Selenium to record Walkthroughs:**
-
+**Using Selenium to record Walkthroughs:**    
+*WARNING: SELENIUM SUPPORT IS DEPRECATED!*    
 [Installing Selenium IDE](#Installing_Selenium_IDE)   
 [Recording Selenium tests](#Recording_Selenium_tests)   
 [Creating Walkthroughs from a Selenium test](#Creating_Walkthroughs_from_a_Selenium_test)   
 
-
-**References:**
-
+**References:**   
 [Supported Selenium commands](#Supported_Selenium_commands)   
 [Supported Step highlights](#Supported_Step_highlights)   
 
@@ -85,9 +88,9 @@ It is possible to manually add or remove Steps from a Walkthrough, and to change
 1. Open the Edit form for the Walkthrough you want to change. You can do so by clicking the Edit tab for any Walkthrough you have the permissions for.
 2. Scroll down to the list of Steps.
 3. Edit the Steps:
-* To remove a Step: Click on a Step to open its Edit block and click on Remove.
-* To add a Step: Click on the "Add another item" button under the steps list. Click on the newly added Step and fill in its Edit form.
-* To move a step: Grab a Step by the double-arrow icon in front of it, and drag it to the desired position.
+  * To remove a Step: Click on a Step to open its Edit block and click on Remove. 
+  *  To add a Step: Click on the "Add another item" button under the steps list. Click on the newly added Step and fill in its Edit form. 
+  *  To move a step: Grab a Step by the double-arrow icon in front of it, and drag it to the desired position. 
 4. Save the form when finished editing.
 
  
@@ -109,8 +112,8 @@ Parameters make it easy for people to reuse an existing Walkthrough. Under the "
 1. Open the edit form for the Walkthrough you want to change. You can do so by clicking the "Edit" button for any Walkthrough you have the permissions for.
 2. Click on "Parameters/Proxy Warning" to open the hidden fieldset that contains the parameters.
 3. Edit the parameters: For parameters to be recognised, you have to add the parameter name in square brackets while recording the Selenium steps, for example: [name], then add the parameter name on the Walkthrough edit form without the square brackets, for example: name.
-* To remove a parameter: Click the remove button under the parameter.
-* To add a parameter: Click on the "Add another item" button under the parameter list.
+  * To remove a parameter: Click the remove button under the parameter. 
+  * To add a parameter: Click on the "Add another item" button under the parameter list. 
 4. Enter your preferred default value for the parameters.
 5. Save the form when finished editing.
 
