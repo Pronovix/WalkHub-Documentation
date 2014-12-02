@@ -1,7 +1,7 @@
 **'How to' guides:**
 
 Recording & editing:   
-[Recording a Walkthrough](#Recording_a_Walkthrough) 
+[Recording a Walkthrough](#Recording_a_Walkthrough)   
 [Recording a Walkthrough for logged in users](#Recording_a_Walkthrough_for_logged_in_users)     
 [Adding Step descriptions](#Adding_Step_descriptions)   
 [Moving a Walkthrough Step bubble](#Moving_a_Walkthrough_Step_bubble)   
