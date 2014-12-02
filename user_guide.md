@@ -1,7 +1,8 @@
 **'How to' guides:**
 
 Recording & editing:   
-[Recording a Walkthrough](#Recording_a_Walkthrough)   
+[Recording a Walkthrough](#Recording_a_Walkthrough) 
+[Recording a Walkthrough for logged in users](#Recording_a_Walkthrough_for_logged_in_users)     
 [Adding Step descriptions](#Adding_Step_descriptions)   
 [Moving a Walkthrough Step bubble](#Moving_a_Walkthrough_Step_bubble)   
 [Changing the Action of a Walkthrough Step](#Changing_the_Action_of_a_Walkthrough_Step)   
@@ -48,6 +49,15 @@ The easiest way to record a Walkthrough is to use WalkHub's built-in recorder. (
 <div class="wt-container">
   <iframe id="walkthrough-slideshow-iframe" frameborder="0" width="400" height="300" src="http://walkhub.net/walkthrough/6764/slideshow" allowfullscreen=""> Your browser doesn't support iframes.</iframe>
 </div>
+
+
+## <a name="Recording_a_Walkthrough_for_logged_in_users">Recording a Walkthrough for logged in users</a>
+
+You have different options to create Walkthroughs for logged in users, we list them in the order of complexity:
+
+1. **Create a Login Walkthrough**: Create a Walkthrough for the login process, and set this as a prerequisite for the Walkthroughs on the admin interface. This will make sure that the user is logged in before the Walkthrough is played.
+2. **Install the client**: Install the client module as described here: http://walkhub.net/documentation/for-developers. Then turn off the proxy for the Walkthrough.
+3. **Own WalkHub**: Set up your own WalkHub and install the WalkHub client as described here: http://walkhub.net/documentation/for-developers.
 
 
 
